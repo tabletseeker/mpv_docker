@@ -5,6 +5,7 @@ ARG YTDL_VERSION=2025.03.31
 RUN apk add --no-cache \
     ffmpeg \
     mesa-dri-gallium \
+    mesa-va-gallium \
     mpv \
     pulseaudio \
     python3 \
